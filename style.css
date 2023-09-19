@@ -1,0 +1,77 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.container{
+    background: white;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    margin: 20px auto ;
+
+}
+h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    margin: 20px 1px;
+    padding: 10px 10px;
+}
+.quiz{
+    
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+.btn{
+    width: 80%;
+    height: 40px;
+    margin: 20px 40px;
+    transition: all 0.5s;
+
+   
+}
+.btn:hover:not([disabled]){
+    background: black;
+    color: brown;
+    cursor: pointer;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#nextbutton{
+    width: 140px;
+    height: 40px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 9px 53px;
+    background: blue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: none;
+    margin: 20px;
+}
+#nextbutton:hover{
+    background: pink;
+    
+}
+.correct{
+    background: green;
+}
+.incorrect{
+    background: red;
+}
+.footer{
+    background: rgb(24, 24, 21);
+    color: aqua;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
