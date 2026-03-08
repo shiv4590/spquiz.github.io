@@ -24,13 +24,13 @@ const questions=[
     ]
     },
     {
-        question:"If log10 x = a, log10 y = b, and log10 z = c, so (to base 10) the antilogarithm of pa+qb+rc would be?",
+        question:"what is the value of compond intetrest when principal of 1000 at rate 10% per annum for 2 year",
         
         answer :[
-        {text:"Px + qy- rz",correct:"false"},
-        {text:"xp yq zr(p,q,r in power)",correct:"true"},
-        {text:"pxqy/rz",correct:"false"},
-        {text:"5",correct:"false"}
+        {text:"400:"false"},
+        {text:"210",correct:"true"},
+        {text:"521",correct:"false"},
+        {text:"578",correct:"false"}
     
     ]
     },
@@ -207,4 +207,5 @@ else{
     startQuiz();
 }
  });
+
   startQuiz();
