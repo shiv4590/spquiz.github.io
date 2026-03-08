@@ -24,7 +24,7 @@ const questions=[
     ]
     },
     {
-        question:"what is the value of compond intetrest when principal of 1000 at rate 10% per annum for 2 year",
+        question:"what is the value of compond intetrest when principal of 1000 at rate 10% per annum for 2 year?",
         
         answer :[
         {text:"400",correct:"false"},
@@ -209,5 +209,6 @@ else{
  });
 
   startQuiz();
+
 
 
