@@ -1,4 +1,17 @@
 const questions=[
+     {
+        question:"Aim librarian are you ready for exam specially ajeet lucky and divyanshu?",
+        
+            answer :[
+            {text:"yes",correct:"true"},
+            {text:"no",correct:"true"},
+            {text:"nothing to say",correct:"true"},
+            {text:"toofan macha denge",correct:"true"}
+        
+        ]
+            
+        
+    },
     {
         question:"What is the average of first five multiples of 12?",
         
@@ -126,6 +139,55 @@ const questions=[
 
 ]
 },
+      {
+        question:"The ratio of milk to honey in 20 litres of a mixture is 3 : 2. The quantity of milk in the mixture is:?",
+
+
+        
+        answer :[
+        {text:"16",correct:"false"},
+        {text:"15",correct:"true"},
+        {text:"20",correct:"false"},
+        {text:"18",correct:"false"}
+    
+    ]
+    },
+     {
+        question:"Find the cost price of an article which is sold at rupees 1470 at a profit 16.67%.?",
+
+        
+        answer :[
+        {text:"1670",correct:"false"},
+        {text:"1740",correct:"false"},
+        {text:"1260",correct:"true"},
+        {text:"18",correct:"false"}
+    
+    ]
+    },
+     {
+        question:"A person can travel a certain distance in 8 hours .if he reduce he reduced his speed by 36.66% .then he would cover 132 km less in same time .find the actual speed of that person.?",
+
+        
+        answer :[
+        {text:"45km hr",correct:"true"},
+        {text:"40km hr",correct:"false"},
+        {text:"27km hr",correct:"true"},
+        {text:"18km hr",correct:"false"}
+    
+    ]
+    },
+     {
+        question:"Find the fraction value of 13.33%?",
+
+        
+        answer :[
+        {text:"2/15",correct:"true"},
+        {text:"1/45",correct:"false"},
+        {text:"3/20",correct:"false"},
+        {text:"4/15",correct:"false"}
+    
+    ]
+    },
 ];
 
 const questionElement=document.getElementById("question");
@@ -209,6 +271,7 @@ else{
  });
 
   startQuiz();
+
 
 
 
